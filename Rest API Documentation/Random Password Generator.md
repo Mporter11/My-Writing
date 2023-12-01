@@ -1,0 +1,52 @@
+# Python Project: Random Password Generator Explanation
+
+## Character Sets:
+* Defined three lists (letters, numbers, symbols) containing characters to be used in generating the password.
+## Welcome Message and User Input:
+* Displayed a welcome message.
+* Took user input for the number of letters, symbols and numbers they want in the password.
+## Password Generation:
+* Used a loop to generate the password by randomly selecting characters from each character set according to user input.
+## Display Password: 
+* Displayed the generated password to the user.
+## Code Block:
+```
+"""Random Password Generator
+
+This module generates a random password for a user. 
+It assumes there is no character length requirement. 
+It requires letters, numbers, and symbols.
+"""
+
+import random
+
+# Define character sets
+letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
+
+# Welcome message
+print("Welcome to the Random Password Generator!")
+
+# Get user input for password criteria
+nr_letters = int(input("How many letters would you like in your password?\n")) 
+nr_symbols = int(input(f"How many symbols would you like?\n"))
+nr_numbers = int(input(f"How many numbers would you like?\n"))
+
+# Initialize an empty string to store the generated password
+password = ""
+
+# Generate password by randomly selecting characters from each set
+for char in range(1, nr_letters + 1):
+    password += random.choice(letters)
+
+for char in range(1, nr_symbols + 1):
+    password += random.choice(symbols)
+
+for char in range(1, nr_numbers + 1):
+    password += random.choice(numbers)
+
+# Display the generated password
+print(f"Your password is: {password}")
+
+```
