@@ -13,14 +13,14 @@
 6. Post-Deployment: The green environment is the production environment, and the blue environment is idle for the next deployment cycle
 
 ## Reference: Blue/Green Deployment Diagram
-![An image of a standard blue/green deployment setup](https://github.com/Mporter11/My-Writing/blob/main/Explainers/Blue_Green_Diagram.png) 
+![An image of a standard blue/green deployment setup](https://github.com/Mporter11/My-Writing/blob/main/Explainers/Screenshots/Blue_Green_Diagram.png)
 
 ## Stipulations
 * ITQE will perform the testing. Team members will be listed on the applicable JIRA ticket.
 * The test will be tracked on the sub-task ticket titled "Smoke Test on Staging Environment" of the applicable JIRA story ticket.
-![Sample JIRA ticket ](https://github.com/Mporter11/My-Writing/blob/main/Explainers/Blue_Green_JIRA.PNG) 
+![Sample JIRA ticket ](https://github.com/Mporter11/My-Writing/blob/main/Explainers/Screenshots/Blue_Green_JIRA.PNG) 
 * The test typically takes one hour to complete, but timing is dependent on the complexity of the work. See the applicable JIRA ticket for details.
 * No coding changes will be made to the affected website during or post the blue/green deployment.
 
 ## Reference: Process Flow
-![Image of the process flow of QA, UAT and release for a blue/green deployment](https://github.com/Mporter11/My-Writing/blob/main/Explainers/Blue_Green__Flow.png) 
+![Image of the process flow of QA, UAT and release for a blue/green deployment](https://github.com/Mporter11/My-Writing/blob/main/Explainers/Screenshots/Blue_Green__Flow.png) 
