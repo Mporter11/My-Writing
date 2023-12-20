@@ -44,11 +44,11 @@ This document describes the best practices and corporate standards for HTML. It 
   * Provides a better use experience for the end user by improving how accessible, readable, and searchable web elements are.
  
   #### 1.4.3 Commonly used tags definitions
-  * <section> Used as the most generic of all sectioning elements. Always include a heading. 
-  * <article> Content that makes sense on its own (e.g. blog post, newsletter article)
-  * <aside> Used for content that is seperate, but related to the parent content.
-  * <div> Used for block level elements that usually make up the page structure.
-  * <span> Used for inline level elements
+  * section: Used as the most generic of all sectioning elements. Always include a heading. 
+  * article: Content that makes sense on its own (e.g. blog post, newsletter article)
+  * aside: Used for content that is seperate, but related to the parent content.
+  * div: Used for block level elements that usually make up the page structure.
+  * span: Used for inline level elements
  
   ## 2. Creating a New Document Rules
 
