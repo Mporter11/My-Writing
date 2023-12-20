@@ -11,10 +11,9 @@ This document describes the best practices and corporate standards for HTML. It 
 ## 1. General Coding Rules
 
 ### 1.1 Formatting
-* Always use lowercase tag names
+* Always use lowercase tag names.
 * Each nested tag must be intended **once** inside of its parent tag.
 * Place a line break after every block element.
-* Follow a semantic approach. See the [Semantics section.](#1.4-semantics)
 
 #### 1.1.1 Example 
 ![Screenshot of a block of HTML code following proper formatting and functionality rules.](https://github.com/Mporter11/My-Writing/blob/main/Style%20Guides/Screenshots/Format_example.png)
@@ -48,10 +47,10 @@ This document describes the best practices and corporate standards for HTML. It 
  
   #### 1.4.3 Commonly used tags definitions
   * section: Used as the most generic of all sectioning elements. Always include a heading. 
-  * article: Content that makes sense on its own (e.g. blog post, newsletter article)
+  * article: Content that makes sense on its own (e.g. blog post, newsletter article).
   * aside: Used for content that is seperate, but related to the parent content.
   * div: Used for block level elements that usually make up the page structure.
-  * span: Used for inline level elements
+  * span: Used for inline level elements.
  
   ## 2. Creating a New Document Rules
 
