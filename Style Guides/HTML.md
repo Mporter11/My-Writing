@@ -12,9 +12,12 @@ This document describes the best practices and corporate standards for HTML. It 
 
 ### 1.1 Formatting
 * Always use lowercase tag names
-* Each nested tag must be intended **once** inside of its parent tag
-* Place a line break after every block element
-* Follow a semantic approach (see the Semantics section)
+* Each nested tag must be intended **once** inside of its parent tag.
+* Place a line break after every block element.
+* Follow a semantic approach. See the [Semantics section.](#1.4-semantics)
+
+#### 1.1.1 Example 
+![Screenshot of a block of HTML code following proper formatting and functionality rules.](https://github.com/Mporter11/My-Writing/blob/main/Style%20Guides/Screenshots/Format_example.png)
 
 ### 1.2 Functionality
 * Use a Javascript file if Javascript events are included. Do not use inline Javascript events or logic within the HTML. This increases the chance for errors when multiple languages are merged.
@@ -63,4 +66,6 @@ This document describes the best practices and corporate standards for HTML. It 
   1. Declare doctype and HTML element.
   2. Put the HEAD with the appropriate metadata.
   3. Add content to the body.
- 
+
+  #### 2.2.1 Example
+ ![Screenshot of a block of HTML code following the rules for setting up a new HTML document.](https://github.com/Mporter11/My-Writing/blob/main/Style%20Guides/Screenshots/new_HTML_doc.png)
