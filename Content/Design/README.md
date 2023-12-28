@@ -1,4 +1,4 @@
-# Dive into my Web Designs!
+# Dive into my Designs!
 Check out the web designs I helped create for Crisis Text Line (CTL) below. I primarily used Figma and Adobe Photoshop. 
 <br>
 <br>
