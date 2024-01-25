@@ -1,23 +1,16 @@
 # About the My Writing Repo
-This repository contains samples of my writing work. It is a collection of professional, personal and volunteer pieces. Below is more information about the different types of writings, tools involved to produce them, my own experiences about how I created the piece.
+* This repository contains samples of my writing work. It is a collection of professional, personal and volunteer pieces. Below is more information about the different types of writings, tools involved to produce them, my own experiences about how I created the piece.
+* Please note any writing sample related to my professional experiences has been edited to adhere to enterprise privacy rules. 
+* Please note this repo is designed for current and future writing works I specialize in. 
 
 ## Documentation Types
 These writing samples are categorized into the following documentation types:
-* Change Notes
-* Code Documentation
-* Content Writing
-* Explainers
-* Glossaries
-* How-Tos
-* References
-* Style Guides
-* Tutorials
-
-## My writing samples overview
-
-| Document Title | Documentation Type | Tools | Description |
-| ------------- | ------------- | ------------- | ------------- |
-| Security Update (CHG-13447) | Change Note | JIRA, Confluence | Describes new features, improvements, and business justification for a security-related change to a corporate VPN network. The audience is for this note is business stakeholders and the Change Advisory Board (CAB) |
-| Random Password Generator | Code Documentation | PyCharm | Documents the code of a random password generator application I created while learning Python. The audience for this piece is for anyone wants to understand how this application was created. |   
-| UX Designs  | Content | Figma, Adobe Photoshop | Screenshots of webpages I helped design for the organization I volunteer for. The audience of these webpages is fellow volunteer members. |
-| Content Cell  | Content Cell  |
+* Change Notes: Documentation highlighting modifications and updates for planned software changes.
+* Code Documentation: Descriptions and explanations of software source code.
+* Content Writing: UX writing and UI designs. 
+* Explainers: Documentation simplifying an process or product for a target audience.
+* Glossaries: Reference document that provides an alphabetical list of terms and phrases along with their definitions and examples.
+* How-Tos: Instructional documentation providing step-by-step guidance on how to perform a specific task, use a product or service, or accomplish a particular goal for an audience with a beginner-level of knowledge.
+* References: Visual aids for processes and procedures.
+* Style Guides: A set of standards providing guidance on how to consistently format code while programming.
+* Tutorials: Instructional documentation providing step-by-step guidance on how to perform a specific task, use a product or service, or accomplish a particular goal for an audience with an intermediate-level of knowledge. 
